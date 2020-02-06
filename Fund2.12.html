@@ -1,0 +1,19 @@
+<script>
+    function yummy(x)
+    {
+        var count=0;
+        for(var i=0; i<x.length; i++)
+        {
+            if(x[i]=="comida")
+            {
+                console.log("yummy");
+                count=count+1;
+            }
+        }
+        if(count==0)
+        {
+            console.log("Tengo Hambre")
+        }
+    }
+    yummy(["nada","comida","nada","nada"]);
+</script>

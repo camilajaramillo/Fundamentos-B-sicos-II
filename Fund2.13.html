@@ -1,0 +1,14 @@
+<script>
+    function cambio(x)
+    {
+        for(i=1; i<=x.length/2; i+=2)
+        {
+            a=x[i-1];
+            b=x[x.length-i];
+            x[i-1]=b;
+            x[x.length-i]=a;
+        }
+        return x;
+    }
+    console.log(cambio([1,2,3,4,5,6]));
+</script>

@@ -1,0 +1,19 @@
+<script>
+    function neg(x)
+    {
+        var nuevo=[];
+        for(var i=0; i<x.length; i++)
+        {
+            if(x[i]>0)
+            {
+                nuevo.push(x[i]*-1);
+            }
+            else
+            {
+                nuevo.push(x[i]);
+            }
+        }
+        return nuevo;
+    }
+    console.log(neg([1,-3,5]));
+</script>

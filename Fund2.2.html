@@ -1,0 +1,22 @@
+<script>
+    function menormayor(x)
+    {
+        for(var i=0; i<x.length; i++)
+        {
+            if(x[i]<x[i+1])
+            {
+                min=x[i];
+            }
+        }
+        for (var i=0; i<x.length; i++)
+        {
+            if(x[i]>x[i+1])
+            {
+                max=x[i];
+            }
+        }
+        console.log(min);
+        return max;
+    }
+    menormayor([3,8,2,5]);
+</script>
